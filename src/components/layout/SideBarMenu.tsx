@@ -15,12 +15,14 @@ export interface SideBarMenuItem {
   divider?: boolean;
 }
 
+/**   This is from company one     */
+
 interface Props {
   collapsed: boolean;
 }
 
 const SideBarItems: SideBarMenuItem[] = [
-  { label: "Page 1 ", route: "/page1", icon: <Icons.AccountBookOutlined /> },
+  { label: "Drag & Drop Example ", route: "/drag-and-drop", icon: <Icons.AccountBookOutlined /> },
   { label: "Page 2 ", route: "/page2", icon: <Icons.AccountBookOutlined /> },
   { label: "Page 3 ", route: "/page3", icon: <Icons.AccountBookOutlined /> },
   {
