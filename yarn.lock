@@ -369,6 +369,13 @@
   dependencies:
     tslib "^2.4.0"
 
+"@types/antd@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/antd/-/antd-1.0.0.tgz#f04e2a84efd9ea937366cd3dfbada5d3c949471d"
+  integrity sha512-wnRh+S6vPMahsuSN6lFJQzNXuhUKr9JKic1L/NMdIChsuu9Fc+mDyF7H17eFPQlgpLVdT0DyYIgB1di8DA9AuQ==
+  dependencies:
+    antd "*"
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
@@ -486,7 +493,7 @@ ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^5.6.1:
+antd@*, antd@^5.6.1:
   version "5.6.1"
   resolved "https://registry.yarnpkg.com/antd/-/antd-5.6.1.tgz#ded8aa4431c41e09c7065f8202ba2f8fdd13153e"
   integrity sha512-ZuY6MATmONRCrHL53BwM3t/GruwhNcPJsKtRQLyo6TWJFkdPBd4gASfHsgKWRlXnN767IG8ioxDS5hlV6GsGHg==
