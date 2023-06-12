@@ -13,12 +13,11 @@ const HeaderNav: React.FC = () => {
         type="primary"
         size="large"
         className="ml-4"
-        style={{background:"#2596be"}}
+        style={{ background: "#2596be" }}
         onClick={() => (collapsed ? setCollapsed(false) : setCollapsed(true))}
       >
         {collapsed ? <Icons.MenuUnfoldOutlined /> : <Icons.MenuFoldOutlined />}
       </Button>
-      <div>Header here</div>
     </Header>
   );
 };

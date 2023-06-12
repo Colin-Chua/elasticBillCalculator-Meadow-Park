@@ -18,3 +18,5 @@ export const trimString = (str: string): string => {
     if (!_.isString(str)) return str;
     return str.replace(/^\s+|\s+$/g, "");
   };
+
+

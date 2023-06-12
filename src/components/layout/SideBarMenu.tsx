@@ -22,7 +22,7 @@ interface Props {
 }
 
 const SideBarItems: SideBarMenuItem[] = [
-  { label: "Drag & Drop Example ", route: "/drag-and-drop", icon: <Icons.AccountBookOutlined /> },
+  { label: "Calculator", route: "/bill-calculator", icon: <Icons.AccountBookOutlined /> },
   { label: "Page 2 ", route: "/page2", icon: <Icons.AccountBookOutlined /> },
   { label: "Page 3 ", route: "/page3", icon: <Icons.AccountBookOutlined /> },
   {
