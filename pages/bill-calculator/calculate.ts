@@ -32,7 +32,7 @@ export const CalculateBill = (data: RoomBillType) => {
     usersRoom.push(newUserRoom);
   });
 
-  result.commonAreaUsage = roomTotalUsage;
+  result.commonAreaUsage = data.usage - roomTotalUsage;
   result.commonAreaBill = result.commonAreaUsage * rate;
   result.totalBill = data.bill;
   result.totalUsage = data.usage;

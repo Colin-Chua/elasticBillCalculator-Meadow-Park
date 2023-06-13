@@ -22,32 +22,9 @@ interface Props {
 }
 
 const SideBarItems: SideBarMenuItem[] = [
-  { label: "Calculator", route: "/bill-calculator", icon: <Icons.AccountBookOutlined /> },
-  { label: "Page 2 ", route: "/page2", icon: <Icons.AccountBookOutlined /> },
-  { label: "Page 3 ", route: "/page3", icon: <Icons.AccountBookOutlined /> },
-  {
-    label: "Page 4 ",
-    icon: <Icons.AccountBookOutlined />,
-    menus: [
-      {
-        label: "Page 4.1 ",
-        route: "/page4.1",
-        icon: <Icons.AccountBookOutlined />,
-      },
-
-      {
-        label: "Page 4.2 ",
-        route: "/page4.2",
-        icon: <Icons.AccountBookOutlined />,
-      },
-
-      {
-        label: "Page 4.3 ",
-        route: "/page4.3",
-        icon: <Icons.AccountBookOutlined />,
-      },
-    ],
-  },
+  { label: "Bill Summary", route: "/bill-summary", icon: <Icons.AccountBookOutlined /> },
+  { label: "Main Page ", route: "/", icon: <Icons.AccountBookOutlined /> },
+  
 ];
 
 const SidebarMenuPaths: string[] = [];
